@@ -14,8 +14,11 @@ setwd("/local-scratch/localhome/hvahedi/Google_DA_capstone_project/") #displays 
 library(dplyr)
 library(readr)
 
+#==========================================================================================================
+##STEP 1: Collect Data
+#==========================================================================================================
 ##get list of csv files in the folder and assign names of files to Q11_files vector
-Q11_files <- list.files(path = "/local-scratch/localhome/hvahedi/Google_DA_capstone_project/agg_Q1/", pattern = "*.csv", full.names = TRUE)
+Q11_files <- list.files(path = "/Google_DA_capstone_project/agg_Q1/", pattern = "*.csv", full.names = TRUE)
 
 Q11_2022 <- Q11_files %>% lapply(read_csv) %>% bind_rows()
 ## %>% takes output of last function and inputs into next function
@@ -29,9 +32,11 @@ Q11_2022 <- Q11_files %>% lapply(read_csv) %>% bind_rows()
 
 ##search for any rows that contain NA in any column
 na_rows <- Q11_2022 [!complete.cases(Q11_2022), ]
+
 ##=================================================
 ##step 2: wrangle data and combine into single file
 ## ================================================
+
 # compare column names of the files together
 # column names MUST match into single file 
 colnames(Q11_2022)
