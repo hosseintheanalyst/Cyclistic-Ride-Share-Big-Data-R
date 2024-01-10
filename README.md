@@ -9,10 +9,16 @@ Currently the company has 3 products from which drive revenues at the company:
 * Full-day passes **(referred to as "casual users")**
 * Annual memberships **(referred to as "members")**
 
-In this version of my case study I chose R as my primary tool for processing 4,000,000+ rows of data and create visuals. 
+In this version of my case study I chose R as my primary tool for processing 4,000,000+ rows of data and create visuals. Unlike with spreadsheets, I did not need to subsample my data since R is more than capable to process large amounts of raw data. Therefore, there is no benefit to the tradeoff of subsampling data in this case which can potentially introduce bias to our results. 
 
+Raw data were obtained directly from Divvy and can be accessed via the link below:
 
-[total_count_pie.pdf](https://github.com/hossvah/Cyclistic-Ride-Share-Big-Data-R/files/13882297/total_count_pie.pdf)
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
+License to use the data:
+
+https://www.divvybikes.com/data-license-agreement
+
 
 
 
