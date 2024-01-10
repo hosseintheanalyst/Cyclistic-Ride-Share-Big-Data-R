@@ -19,7 +19,26 @@ License to use the data:
 
 https://www.divvybikes.com/data-license-agreement
 
-****Check out some of my Results****
+****Check out some of my Results:****
+
+<img width="512" alt="AvgRideTime_usertype" src="https://github.com/hossvah/Cyclistic-Ride-Share-Big-Data-R/assets/143053982/6e3ed4dd-e344-45d1-8104-6fab4a10744d">
+
+Casual Riders on average had longer trip durations compared to members. 
+
+<img width="512" alt="total_count_pieSC" src="https://github.com/hossvah/Cyclistic-Ride-Share-Big-Data-R/assets/143053982/c28c906a-9482-4096-88b2-a70b5ef53b88">
+
+The majority of customers were annual membership subscribers.
+
+<img width="512" alt="month_counts" src="https://github.com/hossvah/Cyclistic-Ride-Share-Big-Data-R/assets/143053982/4edc2e92-ad8c-4421-949b-cac16bf7031f">
+
+This chart displays monthly user preferences broken down by casual or member riders. 
+
+<img width="512" alt="weekday_count" src="https://github.com/hossvah/Cyclistic-Ride-Share-Big-Data-R/assets/143053982/23bd2996-3582-40c9-98bc-cf24d7524066">
+
+This chart displays weekday user preferences broken down by casual or member riders. 
+
+
+
 
 
 
