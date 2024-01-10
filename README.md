@@ -1,3 +1,5 @@
+# Case Study of Cyclistic Ride Share Data with R
+
 This is a case study that I completed as part of my capstone project in the last step of obtaining my Google Data Analytics professional certificate. I have replicated this this case study multiple times, each time using different tools like SQL, Tableau, Spreadsheets, or Google Slides but here you can find the version of this case study that I completed using R to process, manipulate data and create powerful visuals which can be used to drive insight. 
 
 ***Background***
@@ -36,6 +38,9 @@ This chart displays monthly user preferences broken down by casual or member rid
 <img width="512" alt="weekday_count" src="https://github.com/hossvah/Cyclistic-Ride-Share-Big-Data-R/assets/143053982/23bd2996-3582-40c9-98bc-cf24d7524066">
 
 This chart displays weekday user preferences broken down by casual or member riders. 
+
+
+# Check out the Same Analysis Undertaken with SQL [here.](https://github.com/hossvah/Cyclistic-Bike-Share-Analysis-Big-Data-SQL)
 
 
 
